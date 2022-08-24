@@ -15,7 +15,7 @@ const ellipsis: CSSObject = {
 export default createStyles((theme, { height, noEllipsis, withFixedHeader }: DataGridStylesParams) => ({
   scrollArea: {
     position: 'relative',
-    height: height ? height + 'px' : undefined,
+    height: height ? height : undefined,
   },
   table: {
     borderCollapse: 'separate',
